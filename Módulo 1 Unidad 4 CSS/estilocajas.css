@@ -1,0 +1,19 @@
+#beige{
+    width: 500px;
+    height: 100px;
+    background-color: beige;
+    padding: 20px;
+    margin-top: 30px;
+    border: 2px dashed rosybrown;
+}
+
+#gold{
+    width: 500px;
+    height: 100px;
+    background-color: gold;
+    margin-top: 20px;
+    text-decoration: underline;
+    font-style: italic;
+    padding: 20px;
+    border: 2px solid black;
+}

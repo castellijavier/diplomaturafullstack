@@ -1,0 +1,12 @@
+p{
+color: black;
+font-family: Verdana;
+size: 200px;
+line-height: 25px; /*separación entre lineas */
+margin-bottom: 20px;
+}
+
+.rojo{
+    color: red;
+    text-align: center;
+}
