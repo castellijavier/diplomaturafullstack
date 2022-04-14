@@ -1,0 +1,25 @@
+p{
+color: black;
+font-family: Verdana;
+size: 200px;
+line-height: 25px; /*separación entre lineas */
+margin-bottom: 20px;
+}
+
+.rojo{
+    color: red;
+    text-align: center;
+    font-family: 'Ms Madi', cursive;
+    font-size: 30px;
+}
+
+.caja3{
+    color: brown;
+    text-align: center;
+}
+
+.instagram{
+    color: red;
+    font-size: 80px;
+    margin-top: 50px;
+}

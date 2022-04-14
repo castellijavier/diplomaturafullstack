@@ -1,0 +1,7 @@
+.gradiente{
+    background: linear-gradient(to right, blue, white);
+}
+
+h2{
+    text-align: center;
+}
