@@ -1,0 +1,136 @@
+/* Estilo caja Ejemplo 1 */
+#contenedor1{
+    width: 600px;
+    height: 600px;
+    background-color: white;
+    border: 1px solid black;
+    margin: 50px 400px 100px 400px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+#caja1ej1{
+    background-color: red;
+    color: white;
+    width: 200px;
+    height: 200px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+#caja2ej1{
+    background-color: blue;
+    color: white;
+    width: 200px;
+    height: 200px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#caja3ej1{
+    background-color: green;
+    color: white;
+    width: 200px;
+    height: 200px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilo caja Ejemplo 2 */
+#contenedor2{
+    background-color: white;
+    border: 1px solid black;
+    width: 600px;
+    height: 600px;
+    margin: 50px 400px 100px 400px;
+    display: inline-flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    
+}
+
+#caja1ej2{
+    background-color: red;
+    color: white;
+    width: 200px;
+    height: 200px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#caja2ej2{
+    background-color: blue;
+    color: white;
+    width: 200px;
+    height: 200px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#caja3ej2{
+    background-color: green;
+    color: white;
+    width: 200px;
+    height: 200px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilo caja Ejemplo 3 */
+#contenedor3{
+    background-color: white;
+    border: 1px solid black;
+    width: 1200px;
+    height: 200px;
+    margin: 50px 100px 0px 100px;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+#caja1ej3{
+    background-color: red;
+    color: white;
+    width: 200px;
+    height: 200px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#caja2ej3{
+    background-color: blue;
+    color: white;
+    width: 200px;
+    height: 200px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#caja3ej3{
+    background-color: green;
+    color: white;
+    width: 200px;
+    height: 200px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilo de los títulos h1 */
+.titulos{
+    text-align: center;
+    text-decoration: underline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    background-color: bisque;
+}
+
+/* Fin del archivo css */

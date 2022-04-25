@@ -1,0 +1,51 @@
+#beige{
+    width: 500px;
+    height: 100px;
+    background-color: beige;
+    padding: 20px;
+    margin-top: 30px;
+    border: 2px dashed rosybrown;
+    box-shadow: 10px 0 10px black;
+}
+
+#gold{
+    width: 500px;
+    height: 100px;
+    background-color: gold;
+    margin-top: 20px;
+    text-decoration: underline;
+    font-style: italic;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 20px 0 20px 0;
+    cursor: pointer;
+    /* agrego la manito en el puntero del mouse */
+}
+
+#gold:hover{
+    background-color: bisque;
+    /* cuando el mouse pasa por la caja cambia el color de la caja */
+}
+
+.gradientes{
+    width: 500px;
+    height: 100px;
+    margin-top: 20px;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 0px 200px 200px 0px;
+    box-shadow: 10px 10px 20px black;
+    background: #00bbff;
+    background: linear-gradient(90deg,#00bbff 0%, #00ff00 80%);
+    background: -webkit-linear-gradient(90deg,#00bbff 0%, #00ff00 80%);
+    background: -moz-linear-gradient(90deg,#00bbff 0%, #00ff00 80%);
+}
+
+/* Dando estilo al texto <h4> con pseudoelemento ::after */
+h4::after{
+    content: "visite el instagram oficial";
+    color: blanchedalmond;
+    background-color: black;
+    padding: 10px;
+    margin: 0 0 0 50px;
+} 

@@ -4,6 +4,15 @@ font-family: Verdana;
 size: 200px;
 line-height: 25px; /*separación entre lineas */
 margin-bottom: 20px;
+cursor: pointer; /* puntero del mouse */
+}
+
+/* Cambio de las <p> generales del sitio al pasar el mouse */
+p:hover{
+    color: blue;
+    font-style: italic;
+    /* cambia el texto de la caja gold al pasar el mouse */
+    /* al estar definido <p> genérico cambia el estilo de todas las <p< del sitio web */
 }
 
 .rojo{

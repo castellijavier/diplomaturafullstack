@@ -1,0 +1,51 @@
+#contenedor{
+    background-color: beige;
+    width: 400px;
+    height: 900px;
+    border: 2px solid black;
+    padding: 20px;
+    color: black;
+    position: static; /* posicionamiento estático */
+}
+ 
+/* muevo la caja de arriba hacia abajo y desde izquierda a derecha */
+#caja1{
+    position: relative; /* posicón relativa de la caja */
+    top: 50px;
+    left: 50px;
+    background-color: brown;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    padding: 20px;
+    color: whitesmoke;
+    margin-bottom: 20px;
+}
+
+#caja2{
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    padding: 20px;
+    color: black;
+    position: static;
+    margin-bottom: 20px;
+}
+
+#caja3{
+    background-color: blanchedalmond;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    padding: 20px;
+    color: black;
+    position: static;
+    margin-bottom: 20px;
+}
+
+p{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}

@@ -1,0 +1,28 @@
+#menu{
+    background-color: beige;
+    width: 200px;
+    height: 50px;
+    border: 2px solid black;
+    padding: 20px;
+    color: black;
+    top: 0px;
+    position: fixed; /* posicionamiento fijo */
+}
+
+#caja1{
+    background-color: brown;
+    width: 200px;
+    height: 800px;
+    border: 1px solid black;
+    padding: 20px;
+    color: whitesmoke;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+p{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    text-align: center;
+}
