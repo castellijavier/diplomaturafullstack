@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+  <!-- Ejemplo usando Bootstrap u2m4 -->
+  <!-- Layout: contenedores (Grid) -->
+  <!-- getbootstrap.com -->
+  <html lang="es">
+  
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap</title>
+
+    <!-- bootstrap link v.5.2 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+
+    <!-- primero carga bootstrap luego mi hoja de estilo -->
+    <link rel="stylesheet" href="estilo-bootstrap.css" />
+  </head>
+
+  <body>
+    <div class="container" style="background-color: black">
+      DECO HOGAR - ACCESORIOS
+    </div>
+
+    <div class="container-fluid" style="background-color: yellow">
+      Aprovechá todas las ofertas en nuestros productos
+    </div>
+
+    <!-- Contenedor con código Grid -->
+    <div class="container" style="background-color: gray">
+      <!-- esta es la fila 1 con 3 columnas -->
+
+      <!-- Columna 1 -->
+      <div class="row">
+        <!-- Columna 1 -->
+        <div class="col" style="background-color: goldenrod">
+          <h3 style="color: black; text-align: center">Oferta del día</h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam facere nihil cumque eveniet provident? Illum laboriosam aspernatur minus ipsa veritatis, dicta, sequi ut ab, molestiae a necessitatibus maiores iusto aut?</p>
+          <!-- imagen sacada de placerholder.com -->
+          <img src="https://via.placeholder.com/250x250" class="rounded mx-auto d-block" alt="...">
+        </div>
+
+        <!-- Columna 2 -->
+        <div class="col" style="background-color: orangered">
+          <h4 style="text-align: center">Contactate con nuestros asesores</h4>
+          <!-- Tabla columna 2 -->
+          <table class="table">
+            
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Nombre</th>
+                <th scope="col">Apellido</th>
+                <th scope="col">Contacto</th>
+              </tr>
+            </thead>
+            
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Javier</td>
+                <td>Castelli</td>
+                <td style="color: beige;">castellijavier@decohogar.com</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Juan</td>
+                <td>Pérez</td>
+                <td style="color: beige;">perezjuan@decohogar.com</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Ana</td>
+                <td>García</td>
+                <td style="color: beige;">garciaana@decohogar.com</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!-- Columna 3 -->
+        <div class="col" style="background-color: goldenrod">
+          <!-- Formulario Columna 3 -->
+          <form action="input">
+            <h4 style="color: black; text-align: center">Buscar Producto</h4>
+            <div class="input-group flex-nowrap">
+              <span class="input-group-text" id="addon-wrapping">-></span>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Ingrese producto"
+                aria-label="Prodcuto"
+                aria-describedby="addon-wrapping"/>
+            </div>
+
+            <!-- Agregamos botón de búsqueda dentro de form -->
+            <button type="button" class="btn btn-warning">BUSCAR</button>
+          </form>
+        
+            <h5 class="buscado"> Producto buscado </h5>
+            <img src="https://via.placeholder.com/200x200" class="rounded mx-auto d-block" alt="...">
+          </div>
+        </div>
+    </div>
+    <!-- Fin de la fila 1 -->
+
+    <!-- link del contenido JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

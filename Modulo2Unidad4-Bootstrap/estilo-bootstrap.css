@@ -1,0 +1,36 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: large;
+    margin-bottom: 5px;
+}
+
+.container-fluid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: large;
+    margin-bottom: 5px;
+}
+
+/* Estilo del botón del formulario */
+.btn{
+    margin-top: 10px;
+    border: 1px black solid;
+}
+
+.rounded{
+    margin-bottom: 10px;
+    /* margen final para la foto */
+}
+
+.buscado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    margin-top: 20px;
+}
