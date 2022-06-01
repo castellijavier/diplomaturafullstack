@@ -1,0 +1,211 @@
+/* Fuentes seleccionadas...
+font-family: 'Ms Madi', cursive;
+font-family: 'Open Sans', sans-serif; 
+*/
+
+/* Estilos Sección General */
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 20px; 
+}
+
+header{
+    background-color: cadetblue;
+    padding: 16px 0;
+}
+
+header h1{
+    color: white;
+    font-size: 40px;
+    font-weight: 100; /* peso de la tipografía: más fina que h1 */
+    font-style: italic;
+    display: inline-block; /* posición del logo y el h1 */
+    position: relative;
+    bottom: 35px; /* posición relativa y desde abajo levanta 35px */
+    margin-left: 10px;
+}
+
+nav{
+    background-color: cornflowerblue;
+    margin-bottom: 20px;
+
+}
+
+nav ul{
+    list-style: none; /* le saca los ítems a la lista */
+    margin: 0;
+    padding: 0; /* sacamos margen y padding */
+    display: flex;
+}
+
+nav ul li{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-grow: 1;
+    /* factor de crecimento */
+    /* el li aporta el crecimento */
+}
+
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    padding: 3px 6px;
+    display: block; /* toma los elementos como si fueran una caja */
+    text-align: center;
+    cursor: pointer;
+}
+
+nav ul li a.activo{
+    background-color: black;
+    color: white;
+}
+
+nav ul li a:hover{
+    background-color: blueviolet;
+    color: white;
+}
+
+footer{
+    background-color: gray;
+    clear: both;
+    color: black;
+    text-align: center;
+    padding: 5px 0;
+    margin-top: 20px;
+}
+
+.holder{
+    max-width: 960px; /* resolución */
+    margin: 0 auto;
+    /* clase dentro del div para la visualización en pantalla */
+}
+
+h2{
+    color: black;
+    font-weight: 400;
+}
+
+/* Estilo Sección Home */
+.homeimg{
+    display: flex;
+    justify-content: center;
+}
+
+.bienvenidos{
+    width: 70%;
+    padding-left: 10px;
+    box-sizing: border-box;
+    background-color: bisque;
+}
+
+.testimonios{
+    width: 25%;
+    padding-left: 10px;
+    box-sizing: border-box;
+    background-color: burlywood;
+}
+
+.testimonio .cita{
+    background-color: azure;
+    font-size: 18px;
+    font-style: italic;
+    display: block;
+    width: 90%;
+}
+
+.testimonio .autor{
+    font-size: 10px;
+    text-align: center;
+    display: block;
+    margin: 12px 0;
+    
+}
+
+.columnas{
+    display: flex;
+    gap: 10px;
+}
+
+/*Estilos Sección Nosotros */
+.historia p{
+    font-size: 14px;
+}
+
+.historia h2{
+    color: darkcyan;
+}
+
+.historia{
+    padding-left: 12px;
+}
+
+.staff h2{
+    color: darkcyan;
+}
+.staff{
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.personas{
+    display: flex;
+    justify-content: space-between;
+}
+
+.persona{
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 18%;
+    text-align: center;
+    padding: 13px;
+    box-sizing: border-box;
+}
+
+.persona img{
+    border-radius: 50%;
+    max-width: 60%;
+    box-shadow: 0 0 5px black;
+}
+
+.persona h5,
+.persona h6{
+    margin: 0;
+    font-weight: normal;
+    color: black;
+}
+
+.persona p{
+    color: black;
+    font-size: 12px;
+}
+
+/* Estilos Sección Servicios */
+.servicio{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 16px;
+    margin: 16px 0;
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+.info h4{
+    color: darkblue;
+    font-weight: 500;
+    font-style: italic;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+}
+
+.servicio img{
+    border-radius: 13px;
+    display: block;
+    max-width: 225px;
+}
+
+.servicio:nth-child(even){
+    flex-direction: row-reverse;
+}
