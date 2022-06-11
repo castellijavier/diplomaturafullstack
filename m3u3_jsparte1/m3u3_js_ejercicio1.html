@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+    <!-- Ejercicio 1 m3u3 JS -->
+    <html lang="es">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Distancia</title>
+    </head>
+    
+    <body>
+        <!-- Decidí utilizar estructura if else -->
+        <script>
+            var distancia;
+            distancia=prompt("¿A qué distancia se encuentra?","");
+
+            if(distancia >=100 && distancia <1000){
+                alert("Puede dirigirse caminando");
+            }
+            else if(distancia >=1000 && distancia <10000){
+                alert("Recomendamos utilizar bicicleta");
+            }
+            else if(distancia >=10000 && distancia <30000){
+                alert("Necesita tomar un bus");
+            }
+            else if(distancia >=30000 && distancia <=100000){
+                alert("Puede dirigirse en auto a su destino");
+            }
+            else if(distancia >100000){
+                alert("Por favor compre tickets de avión");
+            }
+            else {
+                alert("La distancia ingresada es incorrecta");
+            }
+        </script>
+        
+    </body>
+</html>

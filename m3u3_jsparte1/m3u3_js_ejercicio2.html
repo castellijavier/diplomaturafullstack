@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+    <!-- Ejercicio 2 m3u3 JS -->
+    <html lang="es">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Número Mayor</title>
+    </head>
+
+    <body>
+        <script>
+            var n1=prompt("Ingrese el primer valor:", "");
+            var n2=prompt("Ingrese el segundo valor:", "");
+            var n3=prompt("Ingrese el tercer valor:", "");
+            var n4=prompt("Ingrese el cuarto valor:", "");
+            var n5=prompt("Ingrese el quinto valor:", "");
+
+            var numeros = [n1,n2,n3,n4,n5];
+
+            document.write("Números ingresados: " + numeros);
+            document.write("<br>");     
+
+            document.write("El número mayor es: ");
+            document.write(Math.max(...numeros));
+            
+            console.log(numeros); // corroborar por consola
+            console.log(Math.max(...numeros)); 
+                    
+        </script>
+    </body>
+</html>
