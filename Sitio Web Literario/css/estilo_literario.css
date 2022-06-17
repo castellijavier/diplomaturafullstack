@@ -1,0 +1,71 @@
+header{
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+}
+
+.logoytitulo{
+    width: 60%;
+    background-color: antiquewhite;
+}
+
+.logoytitulo img{
+   margin: 40px 0px 20px 40px;
+}
+
+.logoytitulo h1{
+    display: inline-block;
+    margin-left: 12px;
+    font-size: 40px;
+    position: relative;
+    bottom: 35px;
+}
+
+nav{
+    background-color: black;
+    margin-bottom: 20px;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    display: flex;
+    padding: 0;
+}
+
+nav ul li{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-grow: 1;
+    border: 1px solid grey;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+    text-align: center;
+    padding: 20px;
+    cursor: pointer;
+}
+
+nav ul li a.activo{
+    text-decoration: underline;
+}
+
+nav ul li a:hover{
+    background-color: blue;
+    color: white;
+}
+
+
+
+footer{
+    background-color: bisque;
+    color: black;
+    text-align: center;
+    padding: 3px;
+    margin-top: 10px;
+}
