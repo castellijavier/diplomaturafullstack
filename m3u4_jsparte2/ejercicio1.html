@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+    <!-- Ejercicio 1 m3u4 JS -->
+    <html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cuadrados</title>
+        <link rel="stylesheet" href="ejercicio1.css">
+    </head>
+    
+    <body>
+        <div class="boxglobal">
+            <div class=" box rojo" onclick="modificarfondo('red')"></div>
+            <div class="box verde" onclick="modificarfondo('green')"></div>
+            <div class="box azul" onclick="modificarfondo('blue')"></div>
+        </div>
+        <h2 style="margin-left: 40px;"> Haga click en un color para modificar color fondo</h2>
+    </body>
+
+    <script>
+        function modificarfondo(color){
+            document.querySelector("body").style.background=color;
+        }
+    </script>
+</html>
