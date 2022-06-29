@@ -1,16 +1,19 @@
-header{
+/* Comienzo sección General */
+.cabecera{
     background-color: bisque;
+    box-sizing: border-box;
     display: flex;
-    justify-content: center;
+    gap: 20px;
 }
 
 .logoytitulo{
-    width: 60%;
+    width: 80%;
+    box-sizing: border-box;
     background-color: antiquewhite;
 }
 
 .logoytitulo img{
-   margin: 40px 0px 20px 40px;
+   margin: 40px 0px 20px 100px;
 }
 
 .logoytitulo h1{
@@ -18,12 +21,25 @@ header{
     margin-left: 12px;
     font-size: 40px;
     position: relative;
-    bottom: 35px;
+    bottom: 30px;
+}
+
+.logo2{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo2 img {
+    border-radius: 50%;
+    width: 70%;
+    border: 2px solid black;
 }
 
 nav{
     background-color: black;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 nav ul{
@@ -53,14 +69,16 @@ nav ul li a{
 
 nav ul li a.activo{
     text-decoration: underline;
+    color: aqua;
 }
 
 nav ul li a:hover{
-    background-color: blue;
-    color: white;
+    color:aqua;
 }
 
-
+main {
+    background-color: bisque;
+}
 
 footer{
     background-color: bisque;
@@ -69,3 +87,35 @@ footer{
     padding: 3px;
     margin-top: 10px;
 }
+/* Fin sección General */ 
+
+/* Comienzo sección Principal */
+.principal{
+    display: flex;
+    justify-content: center;
+}
+
+.principal img{
+    width: 50%;
+}
+
+.principal h1{
+    text-align: center;
+}
+/* Fin sección Principal */
+
+/* Comienzo sección Episodios */
+.episodios{
+    display: flex;
+    justify-content: center;
+}
+
+.episodios img{
+    width: 50%;
+}
+
+main h1{
+   text-align: center;
+}
+/* Fin sección Episodios */
+
