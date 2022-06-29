@@ -1,6 +1,8 @@
 const PiePagina = (props) => {
     return (
-        <div>"Este es el Footer"</div>
+        <footer>
+            <h3> Diseño by Javier Castelli. All Rights Reserved </h3>
+        </footer>
     );
 }
 
