@@ -1,5 +1,7 @@
 import React from 'react';
-import './App.css'
+import './App.css'; // linkea el estilo.
+import '../src/styles/normalize.css';
+import {BrowserRouter,Routes, Route} from "react-router-dom";
 
 import Cabecera from "./components/layout/Header";
 import Navegador from "./components/layout/Nav";
@@ -16,13 +18,20 @@ function App() {
   return (
     <div className="App">
       <Cabecera/>
-      <Navegador/>
-      <HomePage/>
-      <EpisodiosPage/> 
-      <RecomendacionesPage/>
-      <FechasPage/>
-      <ContactoPage/>
+    
+      <BrowserRouter>
+        <Navegador/>
+        <Routes>
+          <Route path="/" element={<HomePage/>}/>
+          <Route path="episodios" element={<EpisodiosPage/>}/>
+          <Route path="recomendaciones" element={<RecomendacionesPage/>}/>
+          <Route path="fechas" element={<FechasPage/>}/>
+          <Route path="contacto" element={<ContactoPage/>}/>
+        </Routes>
+      </BrowserRouter>    
+
       <PiePagina/>
+        
     </div>
   );
 }

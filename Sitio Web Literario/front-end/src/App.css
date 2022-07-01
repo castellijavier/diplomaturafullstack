@@ -1,38 +1,122 @@
-.App {
+/* Comienzo sección General */
+.cabecera{
+  background-color: bisque;
+  box-sizing: border-box;
+  display: flex;
+  gap: 20px;
+}
+
+.logoytitulo{
+  width: 80%;
+  box-sizing: border-box;
+  background-color: antiquewhite;
+}
+
+.logoytitulo img{
+ margin: 40px 0px 20px 100px;
+}
+
+.logoytitulo h1{
+  display: inline-block;
+  margin-left: 12px;
+  font-size: 40px;
+  position: relative;
+  bottom: 30px;
+}
+
+.logo2{
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo2 img {
+  border-radius: 50%;
+  width: 70%;
+  border: 2px solid black;
+}
+
+nav{
+  background-color: black;
+  margin-bottom: 10px;
+}
+
+nav ul{
+  list-style: none;
+  margin: 0;
+  display: flex;
+  padding: 0;
+}
+
+nav ul li{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-grow: 1;
+  border: 1px solid grey;
+}
+
+nav ul li a{
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  display: block;
+  text-align: center;
+  padding: 20px;
+  cursor: pointer;
+}
+
+nav ul li a.activo{
+  text-decoration: underline;
+  color: aqua;
+}
+
+nav ul li a:hover{
+  color:aqua;
+}
+
+main {
+  background-color: bisque;
+}
+
+footer{
+  background-color: bisque;
+  color: black;
+  text-align: center;
+  padding: 3px;
+  margin-top: 10px;
+}
+/* Fin sección General */ 
+
+/* Comienzo sección Principal */
+.principal{
+  display: flex;
+  justify-content: center;
+}
+
+.principal img{
+  width: 50%;
+}
+
+.principal h1{
   text-align: center;
 }
+/* Fin sección Principal */
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Comienzo sección Episodios */
+.episodios{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.episodios img{
+  width: 50%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+main h1{
+ text-align: center;
 }
+/* Fin sección Episodios */
+
+

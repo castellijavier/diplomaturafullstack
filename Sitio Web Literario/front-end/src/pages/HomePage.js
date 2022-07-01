@@ -1,8 +1,11 @@
 const HomePage = (props) => {
     return(
-    <div>
-        "Esto es el Home Page del sitio web"
-    </div>
+        <main>
+        <div class="principal">
+            <img src="Img/Home/libros.jpg" alt="libros"/>
+        </div>
+        <h1> Sitio oficial del Club Literario </h1>            
+    </main>
     );
 }
 
