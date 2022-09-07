@@ -1,8 +1,12 @@
 const FechasPage = (props) => {
     return (
-        <div>
-            "Aquí vas a encontrar las próximas fechas";
+        <main>
+        <h1 class="encuentro">Próximo Encuentro de Zoom</h1>
+
+        <div class="proximafecha">
+            <img src="Img/Fechas/proxima-fecha.jpg" alt=""/>
         </div>
+    </main>
     );
 }
 

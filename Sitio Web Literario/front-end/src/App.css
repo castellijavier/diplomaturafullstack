@@ -1,40 +1,27 @@
 /* Comienzo sección General */
 .cabecera{
-  background-color: bisque;
   box-sizing: border-box;
+  background-color: pink;
   display: flex;
-  gap: 20px;
+  background-image: url(../public/Img/Home/portada-rosa1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 750px 200px;
 }
 
-.logoytitulo{
-  width: 80%;
-  box-sizing: border-box;
-  background-color: antiquewhite;
-}
-
-.logoytitulo img{
- margin: 40px 0px 20px 100px;
-}
-
-.logoytitulo h1{
-  display: inline-block;
-  margin-left: 12px;
-  font-size: 40px;
-  position: relative;
-  bottom: 30px;
-}
-
-.logo2{
+.logoizquierda {
   box-sizing: border-box;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 10px;
+  margin-left: 180px;
 }
 
-.logo2 img {
+.logoizquierda img {
   border-radius: 50%;
   width: 70%;
-  border: 2px solid black;
+  border: 2px solid white;
 }
 
 nav{
@@ -45,46 +32,48 @@ nav{
 nav ul{
   list-style: none;
   margin: 0;
-  display: flex;
   padding: 0;
+  display: flex;   
 }
 
 nav ul li{
   display: flex;
   justify-content: center;
-  text-align: center;
   flex-grow: 1;
-  border: 1px solid grey;
 }
 
 nav ul li a{
   color: white;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 21px;
   display: block;
   text-align: center;
-  padding: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   cursor: pointer;
 }
 
 nav ul li a.activo{
-  text-decoration: underline;
   color: aqua;
 }
 
 nav ul li a:hover{
-  color:aqua;
+  color: violet;
 }
 
 main {
   background-color: bisque;
+  background-image: url(../public/Img/Home/fondoweblunares.jpg);
+  background-position: left;
+  background-size: contain;
+  background-repeat: repeat;
 }
 
 footer{
-  background-color: bisque;
-  color: black;
+  background-color: black;
+  color: whitesmoke;
   text-align: center;
-  padding: 3px;
+  padding: 1px;
   margin-top: 10px;
 }
 /* Fin sección General */ 
@@ -99,9 +88,14 @@ footer{
   width: 50%;
 }
 
-.principal h1{
+.oficial{
+  background-color: lightcoral;
   text-align: center;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
 }
+
 /* Fin sección Principal */
 
 /* Comienzo sección Episodios */
@@ -114,9 +108,160 @@ footer{
   width: 50%;
 }
 
-main h1{
- text-align: center;
+.episodiosh{
+  background-color: lightcoral;
+  text-align: center;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.spotify {
+  text-align: center;
+  background-color: aliceblue;
+  border: 1px solid black;
+  padding: 10px;
+  outline: 2px solid lightcoral;
+  outline-offset: 5px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
 }
 /* Fin sección Episodios */
 
+/* Comienzo sección Fechas */
+.encuentro {
+  background-color: lightcoral;
+  text-align: center;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
 
+.proximafecha {
+  width: 500px;
+  height: 700px;
+  box-sizing: border-box;
+  background-color: antiquewhite;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid black;
+  outline: 2px solid lightcoral;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.proximafecha img {
+  width: 70%;
+}
+/* Fin sección Fechas */
+
+/* Comienzo sección Recomendaciones */
+.lecturas {
+  background-color: lightcoral;
+  text-align: center;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.recomendadas{
+  display: flex;
+  gap: 20px;
+  box-sizing: border-box;
+  justify-content: center;
+}
+
+.recomendada {
+  width: 400px;
+  height: 400px;
+  border: 1px solid black;
+  outline: 2px solid lightcoral;
+  background-color: blanchedalmond;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.recomendada img {
+  width: 80%;
+  height: 90%;
+}
+
+.info {
+  background-color: lightpink;
+  text-align: center;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Fin sección Fechas */
+
+/* Comienzo sección Contacto */
+.contactate {
+  background-color: lightcoral;
+  text-align: center;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contactobox {
+  width: 400px;
+  height: 400px;
+  background-color: antiquewhite;
+  border: 1px solid black;
+  outline: 2px solid lightcoral;
+  /* box-shadow: 5px 5px lightpink; */
+  margin: 20px auto 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.formulario p {
+  display: flex;
+  justify-content: left;
+  margin-left: 10px;
+  gap: 10px;
+}
+
+.formulario p label {
+  min-width: 80px;
+  background-color: lightpink;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.formulario p:nth-child(3) {
+  align-items: flex-start; /* "Mensaje" */
+  /* Tmb lo puedo controlar desde una clase */
+}
+
+.formulario textarea {
+  resize: none; /* el nav no modifique el tamaño */ 
+  height: 200px;
+  width: 55%;
+  background-color: aliceblue;
+  box-shadow: 5px 5px lightpink;
+  overflow: auto;
+}
+
+.formulario p input[type="submit"] {
+  background-color: black;
+  color: white;
+  width: 80px;
+  height: 30px; 
+  margin-top: 20px;
+  margin-left: 210px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.formulario p input[type="submit"]:hover {
+  color: violet;
+  border: 2px solid violet;
+}
+/* Fin sección Contacto */
